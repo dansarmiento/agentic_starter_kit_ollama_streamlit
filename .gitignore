@@ -19,3 +19,6 @@ Thumbs.db
 .streamlit/secrets.toml
 .streamlit/*.json
 .streamlit/cache/
+
+# Logs
+log/
