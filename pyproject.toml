@@ -1,0 +1,11 @@
+[project]
+name = "agentic-ai-starter"
+version = "0.1.0"
+description = "Beginner-friendly agentic AI starter using Python + Ollama (with Streamlit UI)"
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"

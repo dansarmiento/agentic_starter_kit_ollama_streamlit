@@ -1,0 +1,11 @@
+model: "llama3.1:8b-instruct"
+base_url: "http://127.0.0.1:11434"
+temperature: 0.2
+top_p: 0.9
+max_tokens: 2048
+react:
+  max_steps: 6
+memory:
+  k: 8
+rag:
+  collection: "local_docs"
